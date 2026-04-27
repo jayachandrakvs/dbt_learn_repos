@@ -1,0 +1,13 @@
+dbt_learn_repos:
+  outputs:
+    dev:
+      account: qhbjvmg-xp48406
+      database: RAW
+      password: Chandra4@5snow
+      role: Accountadmin
+      schema: staging
+      threads: 1
+      type: snowflake
+      user: JAYACHANDRAKVS
+      warehouse: COMPUTE_WH
+  target: dev
